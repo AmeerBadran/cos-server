@@ -16,7 +16,7 @@ const app = express();
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: process.env.FRONTEND_URL || `http://localhost:5173`,
+  origin: process.env.FRONTEND_URL || `https://ameerbadran.github.io/test-deploy/`,
   methods: "GET,PUT,POST,DELETE",
   credentials: true,
   optionsSuccessStatus: 204,
