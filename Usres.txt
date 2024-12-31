@@ -1,0 +1,136 @@
+[
+  {
+    "first_Name": "Ahmad",
+    "last_Name": "Ali",
+    "birthdate": "7/15/1990",
+    "patient_id": "123456789",
+    "gender": "male",
+    "insurance": "Pal Health",
+    "email": "ahmad.ali@gmail.com",
+    "phone": "0591234567",
+    "password": "password123",
+    "chronic_diseases": ["Diabetes", "Hypertension"]
+  },
+  {
+    "first_Name": "Sara",
+    "last_Name": "Hassan",
+    "birthdate": "12/30/1995",
+    "patient_id": "987654321",
+    "gender": "female",
+    "insurance": "Almashreq",
+    "email": "sara.hassan@gmail.com",
+    "phone": "0569876543",
+    "password": "securepass",
+    "chronic_diseases": ["Asthma"]
+  },
+  {
+    "first_Name": "Mona",
+    "last_Name": "Yousef",
+    "birthdate": "8/21/1985",
+    "patient_id": "456789123",
+    "gender": "female",
+    "insurance": "Pal Health",
+    "email": "mona.yousef@gmail.com",
+    "phone": "0594567890",
+    "password": "mypassword",
+    "chronic_diseases": ["Heart Disease", "Arthritis"]
+  },
+  {
+    "first_Name": "Omar",
+    "last_Name": "Salem",
+    "birthdate": "5/10/1978",
+    "patient_id": "147258369",
+    "gender": "male",
+    "insurance": "Almashreq",
+    "email": "omar.salem@gmail.com",
+    "phone": "0561472583",
+    "password": "password456",
+    "chronic_diseases": ["Hypertension", "Chronic Kidney Disease"]
+  },
+  {
+    "first_Name": "Laila",
+    "last_Name": "Khaled",
+    "birthdate": "3/8/2000",
+    "patient_id": "963852741",
+    "gender": "female",
+    "insurance": "No Insurance",
+    "email": "laila.khaled@gmail.com",
+    "phone": "0599638527",
+    "password": "lailapass",
+    "chronic_diseases": ["None"]
+  },
+  {
+    "first_Name": "Zain",
+    "last_Name": "Qasim",
+    "birthdate": "11/27/1982",
+    "patient_id": "369852147",
+    "gender": "male",
+    "insurance": "Almashreq",
+    "email": "zain.qasim@gmail.com",
+    "phone": "0563698521",
+    "password": "zainsecure",
+    "chronic_diseases": ["Arthritis", "Heart Disease"]
+  },
+  {
+    "first_Name": "Hana",
+    "last_Name": "Naser",
+    "birthdate": "9/18/1993",
+    "patient_id": "258369147",
+    "gender": "female",
+    "insurance": "Pal Health",
+    "email": "hana.naser@gmail.com",
+    "phone": "0592583691",
+    "password": "hanapassword",
+    "chronic_diseases": ["Chronic Kidney Disease", "Asthma"]
+  },
+  {
+    "first_Name": "Mustafa",
+    "last_Name": "Farid",
+    "birthdate": "2/20/1988",
+    "patient_id": "741852963",
+    "gender": "male",
+    "insurance": "No Insurance",
+    "email": "mustafa.farid@gmail.com",
+    "phone": "0567418529",
+    "password": "mypassword123",
+    "chronic_diseases": ["Cancer"]
+  },
+  {
+    "first_Name": "Nour",
+    "last_Name": "Ibrahim",
+    "birthdate": "4/14/1996",
+    "patient_id": "654789321",
+    "gender": "female",
+    "insurance": "Almashreq",
+    "email": "nour.ibrahim@gmail.com",
+    "phone": "0596547893",
+    "password": "noursecure",
+    "chronic_diseases": ["None"]
+  },
+  {
+    "first_Name": "Faris",
+    "last_Name": "Othman",
+    "birthdate": "6/5/1992",
+    "patient_id": "852369741",
+    "gender": "male",
+    "insurance": "Pal Health",
+    "email": "faris.othman@gmail.com",
+    "phone": "0568523697",
+    "password": "farispassword",
+    "chronic_diseases": ["HIV/AIDS", "Chronic Liver Disease"]
+  }
+]
+
+
+Chronic Diseases enum: [
+  "Diabetes",
+  "Hypertension",
+  "Asthma",
+  "Heart Disease",
+  "Chronic Kidney Disease",
+  "Cancer",
+  "HIV/AIDS",
+  "Arthritis",
+  "Chronic Liver Disease",
+  "None",
+],
