@@ -601,7 +601,7 @@ module.exports.getMedication = async (req, res) => {
     }
 
     const medications = await Medication.find(query)
-      .populate("doctor_id", "name")
+      .populate("doctor_id", "first_Name last_Name phone")
       .populate("patient_id", "name")
       .sort({ date: 1 })
       .skip(skip)
