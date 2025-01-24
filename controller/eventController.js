@@ -779,7 +779,7 @@ module.exports.getPatientAppointment = async (req, res) => {
     const skip = (page - 1) * limit;
 
     const appointments = await Appointment.find({ patient_id })
-      .populate("doctor_id", "name specialty")
+      .populate("doctor_id", "first_Name last_Name phone email specialty")
       .sort({ date: 1 })
       .skip(skip)
       .limit(limit);
