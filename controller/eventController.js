@@ -816,7 +816,7 @@ module.exports.getPatientMedications = async (req, res) => {
     const skip = (page - 1) * limit;
 
     const medications = await Medication.find({ patient_id })
-      .populate("doctor_id", "name specialty")
+      .populate("doctor_id", "first_Name last_Name phone specialty")
       .sort({ date: 1 })
       .skip(skip)
       .limit(limit);
